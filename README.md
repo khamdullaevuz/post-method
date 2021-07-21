@@ -23,7 +23,7 @@ require_once __DIR__."/vendor/autoload.php";
 
 use PostMethod\PostMethod;
 
-$telegram = new PostMethod();
+$post = new PostMethod();
 ```
 
 ### Examples:
