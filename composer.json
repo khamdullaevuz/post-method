@@ -1,0 +1,19 @@
+{
+    "name": "khamdullaevuz/post-method",
+    "description": "Php orqali boshqa veb-saytlarga post method yuborish",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KhamdullaevUz",
+            "email": "elbekh75@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Method\\": "src/"
+		}
+	},
+    "minimum-stability": "dev",
+    "require": {}
+}

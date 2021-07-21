@@ -3,7 +3,7 @@
 /**
  * @author Elbek Khamdullaev
  * @description php post method other site with curl
- * @license free and open source
+ * @license MIT
  * @repository https://github.com/KhamdullaevUz/post-method-curl
  */
 
