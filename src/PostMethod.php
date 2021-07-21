@@ -7,9 +7,9 @@
  * @repository https://github.com/KhamdullaevUz/post-method-curl
  */
 
-namespace Method;
+namespace PostMethod;
 
-class Post{
+class PostMethod{
 
 	public function createPost($url, $datas = []){
 		$ch = curl_init();

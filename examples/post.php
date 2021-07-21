@@ -2,9 +2,9 @@
 
 require_once __DIR__."/../vendor/autoload.php";
 
-use Method\Post;
+use PostMethod\PostMethod;
 
-$post = new Post();
+$post = new PostMethod();
 
 $array = $post->createPost('https://api.mypage.uz/', ['ok'=>true]);
 
