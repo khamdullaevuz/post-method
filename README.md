@@ -23,7 +23,7 @@ require_once __DIR__."/vendor/autoload.php";
 
 use PostMethod\PostMethod;
 
-$telegram = new PostMethod("API_KEY");
+$telegram = new PostMethod();
 ```
 
 ### Examples:
