@@ -8,4 +8,4 @@ $post = new PostMethod();
 
 $array = $post->createPost('https://api.mypage.uz/', ['ok'=>true]);
 
-var_dump($array);
+print($array);
