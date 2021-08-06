@@ -7,7 +7,7 @@
  * @repository https://github.com/KhamdullaevUz/post-method-curl
  */
 
-namespace PostMethod;
+namespace KhamdullaevUz\Post;
 
 class PostMethod{
 

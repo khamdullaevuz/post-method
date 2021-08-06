@@ -8,9 +8,9 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/khamdullaevuz/post-method?style=flat)
 ![GitHub watchers](https://img.shields.io/github/watchers/khamdullaevuz/post-method?style=flat)
 
-## Ishlatish:
+# Ishlatish:
 
-### Composer orqali yuklash:
+## Composer orqali yuklash:
 
 ``` bash
 composer require khamdullaevuz/post-method
@@ -21,12 +21,28 @@ composer require khamdullaevuz/post-method
 ``` php
 require_once __DIR__."/vendor/autoload.php";
 
-use PostMethod\PostMethod;
+use KhamdullaevUz\Post\PostMethod;
 
 $post = new PostMethod();
 ```
 
-### Examples:
+## Github orqali yuklash:
+
+``` bash
+git clone https://github.com/khamdullaevuz/post-method
+```
+
+### Ulanish:
+
+``` php
+require_once __DIR__."/src/PostMethod.php";
+
+use KhamdullaevUz\Post\PostMethod;
+
+$post = new PostMethod();
+```
+
+## Examples:
 
 Example: [examples](/examples/post.php)
 
